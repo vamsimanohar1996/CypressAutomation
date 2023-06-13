@@ -1,0 +1,12 @@
+{
+  "name": "bob",
+  "gender": "Male",
+  "products":
+  [
+    "Nokia Edge",
+    "Blackberry"
+  ],
+  "country": "India"
+
+  
+}

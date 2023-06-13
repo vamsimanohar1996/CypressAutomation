@@ -1,0 +1,20 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headed-test": "npm run test -- --headed",
+    "record-dashboard-test":"npm run test -- --record --key 876a88f2-915c-4826-b2fa-4d2da5f2eed5",
+    "record-dashboard-test-mochawesome":"npm run record-dashboard-test -- --reporter mochawesome"
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
